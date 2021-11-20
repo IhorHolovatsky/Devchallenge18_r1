@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+    web:
+        build:
+            context: .
+            dockerfile: ./BoxCutting/Dockerfile
+        ports:
+            - "8080:80"
